@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+	<title> blaskan template </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/a45c96045c.js" crossorigin="anonymous"></script>
+</head>
+
+<body onresize="userAlart()">
+<header>
+	<div class="dateTimewraper">
+	<div id="day"></div>
+	<div id="Date"></div>
+	<div id="time">  </div>
+</div>
+<div class="headerwrapper">
+	<div class="social">
+		<i class="fas fa-search"></i>
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-youtube"></i>
+	</div>
+</div>
+	<div class="name">
+		<img src="image/blaskan-logo.png" alt="logo">
+	</div>
+<div class="border"></div>
+<nav>
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Featuare</a><ul>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Elemant</a></li>
+            <li><a href="#">Icon</a></li>
+        </ul>
+        </li>
+        <li><a href="#">Services</a>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Web Develope</a></li>
+                <li><a href="#">App</a>
+                <ul>
+                    <li><a href="#">App Design</a></li>
+                    <li><a href="#">App Develope</a></li>
+                    <li><a href="#">Web Application</a></li>
+                </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+</nav>
+
+<div class="imagecontainer">
+		<button class="slider" onclick="previous()"> &#8592; </button>
+		<img class="sliderimg" src="image/ladywithglass.jpg" alt="">
+	  <button class="slider2" onclick="next()"> &#8594; </button>
+
+</div>
+</header>
+<div id="flexbox">
+	<div class="maincontent">
+		<section id="firstcontent">
+			<div class="contentwrapper">
+			<h2>Explore new places every single day</h2>
+			<img  src="image/img1.jpg">
+			<p class="firstblock">Integer at pharetra metus, non porttitor lorem. Pellentesque consectetur lacus at erat maximus fringilla. Mauris suscipit commodo lacus id rutrum. Suspendisse potenti. Vestibulum cursus lobortis suscipit. Pellentesque vel eleifend urna. Praesent id pellentesque metus. Aenean accumsan ipsum ac consectetur convallis. Sed efficitur blandit turpis ut rhoncus. Integer vehicula risus eget purus porttitor gravida. Ut dapibus aliquet quam, non tempus elit varius non. Aliquam rutrum molestie ipsum eu feugiat.
+		
+			In hac habitasse platea dictumst. Nullam vulputate fringilla nisl, non finibus lorem vulputate non. Donec non finibus ex. Curabitur quis elit sit amet nunc finibus volutpat vitae vitae enim. Vestibulum eget eros nec eros maximus cursus. Vestibulum et felis hendrerit, pellentesque mi quis, semper neque. Aliquam et elit metus.
+			
+			Nullam scelerisque ipsum vitae turpis luctus placerat. Ut eu odio urna. Sed blandit arcu vitae arcu finibus euismod sed vitae nisi. Nunc rutrum arcu justo, et condimentum felis efficitur ac. Praesent id erat ac felis dignissim commodo. Proin vehicula libero eu suscipit sodales. Vestibulum imperdiet nibh ut ligula semper posuere. Duis felis mauris, luctus eget dui eget, suscipit tempus magna. Duis quis purus sit amet diam condimentum iaculis. Proin varius sapien non erat elementum tincidunt. Phasellus aliquam sodales tellus, sit amet aliquet nisi elementum non. Nam in vulputate sem, in facilisis erat. Fusce auctor risus vel euismod rhoncus.</p>
+			 </div>
+		</section>
+		<section class="dualbox">
+			<div class="box1">
+				<img src="image/img2.jpg" alt="female's glasses">
+				<span> by Jane Smith - April 20, 2017</span>
+				<h2>Travel where you want.</h2>
+				<p>Integer in ante eu mauris interdum vehicula id vitae lacus. Nunc tempus quis metus ac cursus. Duis at erat sit amet ipsum malesuada semper. Aliquam at enim nec odio lobortis egestas. Pellentesque scelerisque erat et magna pellentesque elementum ut eu tortor. Curabitur nisi tellus, egestas non semper ac, cursus non nunc. Donec eget nibh a lacus tincidunt pretium ac at purus. Cras risus orci, elementum eu elementum quis, consectetur id odio. Nullam elementum, arcu at ornare sagittis, augue lorem lacinia dui, convallis lacinia turpis mi hendrerit elit. Mauris molestie massa arcu, sit amet faucibus mi venenatis non.
+		
+				Integer at pharetra metus, non porttitor lorem. Pellentesque consectetur lacus at erat maximus fringilla. Mauris suscipit commodo lacus id rutrum. Suspendisse potenti. Vestibulum cursus lobortis suscipit. Pellentesque vel eleifend urna. Praesent id pellentesque metus. Aenean accumsan ipsum ac consectetur convallis. Sed efficitur blandit turpis ut rhoncus. Integer vehicula risus eget purus porttitor gravida. Ut dapibus aliquet quam, non tempus elit varius non. Aliquam rutrum molestie ipsum eu feugiat.
+					
+				In hac habitasse platea dictumst. Nullam vulputate fringilla nisl, non finibus lorem vulputate non. Donec non finibus ex. Curabitur quis elit sit amet nunc finibus volutpat vitae vitae enim. Vestibulum eget eros nec eros maximus cursus. Vestibulum et felis hendrerit, pellentesque mi quis, semper neque. Aliquam et elit metus.
+				</p>
+			</div>
+			<div class="box2">
+				<img src="image/img3.jpg" alt="girl on sexy mood">
+			<span> by Jane Smith - April 20, 2017</span>
+			<h2>Explore the world</h2>
+			<p>Nullam scelerisque ipsum vitae turpis luctus placerat. Ut  eu odio urna. Sed blandit arcu vitae arcu finibus euismod sed vitae nisi. Nunc rutrum arcu justo, et condimentum felis efficitur ac. Praesent id erat ac felis dignissim commodo. Proin vehicula libero eu suscipit sodales. Vestibulum imperdiet nibh ut ligula semper posuere. Duis felis mauris, luctus eget dui eget, suscipit tempus magna. Duis quis purus sit amet diam condimentum iaculis. Proin varius sapien non erat elementum tincidunt. Phasellus aliquam sodales tellus, sit amet aliquet nisi elementum non. Nam in vulputate sem, in facilisis erat. Fusce auctor risus vel euismod rhoncus.</p>
+		
+			<p>Nam dolor lorem, commodo id volutpat sit amet, dignissim porta nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pellentesque nisi eget urna lobortis, pharetra tempor eros viverra. Maecenas aliquam molestie magna ut maximus. Nam efficitur placerat blandit. Morbi libero arcu, sollicitudin ac interdum sed, congue vel elit. Praesent lectus ex, fringilla eu massa et, varius tincidunt nunc. Morbi egestas at enim eget vestibulum. Integer finibus enim non urna feugiat pellentesque. Etiam cursus vel neque id porttitor. Maecenas lectus massa, placerat nec elementum eu, ornare in tortor. Phasellus sit amet est elementum, condimentum lectus auctor, pellentesque ipsum.
+			</p>
+			</div>
+		</section>
+		<section class="dualbox">
+			<div class="box1">
+				<img src="image/img4.jpg" alt="girl's lag">
+				<span> by Jane Smith - April 20, 2017</span>
+				<h2>Learn always new things</h2>
+				<p>Integer in ante eu mauris interdum vehicula id vitae lacus. Nunc tempus quis metus ac cursus. Duis at erat sit amet ipsum malesuada semper. Aliquam at enim nec odio lobortis egestas. Pellentesque scelerisque erat et magna pellentesque elementum ut eu tortor. Curabitur nisi tellus, egestas non semper ac, cursus non nunc. Donec eget nibh a lacus tincidunt pretium ac at purus. Cras risus orci, elementum eu elementum quis, consectetur id odio. Nullam elementum, arcu at ornare sagittis, augue lorem lacinia dui, convallis lacinia turpis mi hendrerit elit. Mauris molestie massa arcu, sit amet faucibus mi venenatis non.</p>
+		
+			    <p>Integer at pharetra metus, non porttitor lorem. Pellentesque consectetur lacus at erat maximus fringilla. Mauris suscipit commodo lacus id rutrum. Suspendisse potenti. Vestibulum cursus lobortis suscipit. Pellentesque vel eleifend urna. Praesent id pellentesque metus. Aenean accumsan ipsum ac consectetur convallis. Sed efficitur blandit turpis ut rhoncus. Integer vehicula risus eget purus porttitor gravida. Ut dapibus aliquet quam, non tempus elit varius non. Aliquam rutrum molestie ipsum eu feugiat.
+				</p>
+				<p>In hac habitasse platea dictumst. Nullam vulputate fringilla nisl, non finibus lorem vulputate non. Donec non finibus ex. Curabitur quis elit sit amet nunc finibus volutpat vitae vitae enim. Vestibulum eget eros nec eros maximus cursus. Vestibulum et felis hendrerit, pellentesque mi quis, semper neque. Aliquam et elit metus.
+				</p>
+			</div>
+			<div class="box2">
+				<img src="image/img5.jpg" alt="building corner">
+			    <span> by Jane Smith - April 20, 2017</span>
+			    <h2>Explore the world</h2>
+		  	    <p>Nullam scelerisque ipsum vitae turpis luctus placerat. Ut  eu odio urna. Sed blandit arcu vitae arcu finibus euismod sed vitae nisi. Nunc rutrum arcu justo, et condimentum felis efficitur ac. Praesent id erat ac felis dignissim commodo. Proin vehicula libero eu suscipit sodales. Vestibulum imperdiet nibh ut ligula semper posuere. Duis felis mauris, luctus eget dui eget, suscipit tempus magna. Duis quis purus sit amet diam condimentum iaculis. Proin varius sapien non erat elementum tincidunt. Phasellus aliquam sodales tellus, sit amet aliquet nisi elementum non. Nam in vulputate sem, in facilisis erat. Fusce auctor risus vel euismod rhoncus.</p>
+		
+		        <p>Nam dolor lorem, commodo id volutpat sit amet, dignissim porta nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pellentesque nisi eget urna lobortis, pharetra tempor eros viverra. Maecenas aliquam molestie magna ut maximus. Nam efficitur placerat blandit. Morbi libero arcu, sollicitudin ac interdum sed, congue vel elit. Praesent lectus ex, fringilla eu massa et, varius tincidunt nunc. Morbi egestas at enim eget vestibulum. Integer finibus enim non urna feugiat pellentesque. Etiam cursus vel neque id porttitor. Maecenas lectus massa, placerat nec elementum eu, ornare in tortor. Phasellus sit amet est elementum, condimentum lectus auctor, pellentesque ipsum.
+			    </p>
+			</div>
+		</section>
+		<section class="dualbox">
+			<div class="box1">
+				<img src="image/6.jpg" alt="mekeup box">
+				<span> by Jane Smith - April 20, 2017</span>
+				<h2>Travel where you want.</h2>
+				<p>Integer in ante eu mauris interdum vehicula id vitae lacus. Nunc tempus quis metus ac cursus. Duis at erat sit amet ipsum malesuada semper. Aliquam at enim nec odio lobortis egestas. Pellentesque scelerisque erat et magna pellentesque elementum ut eu tortor. Curabitur nisi tellus, egestas non semper ac, cursus non nunc. Donec eget nibh a lacus tincidunt pretium ac at purus. Cras risus orci, elementum eu elementum quis, consectetur id odio. Nullam elementum, arcu at ornare sagittis, augue lorem lacinia dui, convallis lacinia turpis mi hendrerit elit. Mauris molestie massa arcu, sit amet faucibus mi venenatis non.</p>
+		
+			    <p>Integer at pharetra metus, non porttitor lorem. Pellentesque consectetur lacus at erat maximus fringilla. Mauris suscipit commodo lacus id rutrum. Suspendisse potenti. Vestibulum cursus lobortis suscipit. Pellentesque vel eleifend urna. Praesent id pellentesque metus. Aenean accumsan ipsum ac consectetur convallis. Sed efficitur blandit turpis ut rhoncus. Integer vehicula risus eget purus porttitor gravida. Ut dapibus aliquet quam, non tempus elit varius non. Aliquam rutrum molestie ipsum eu feugiat.</p>
+					
+			    <p>In hac habitasse platea dictumst. Nullam vulputate fringilla nisl, non finibus lorem vulputate non. Donec non finibus ex. Curabitur quis elit sit amet nunc finibus volutpat vitae vitae enim. Vestibulum eget eros nec eros maximus cursus. Vestibulum et felis hendrerit, pellentesque mi quis, semper neque. Aliquam et elit metus.
+				</p>
+			</div>
+			<div class="box2">
+				<img src="image/tree.jpg" alt="milk shake">
+			<span> by Jane Smith - April 20, 2017</span>
+			<h2>Explore the world</h2>
+			<p>Nullam scelerisque ipsum vitae turpis luctus placerat. Ut  eu odio urna. Sed blandit arcu vitae arcu finibus euismod sed vitae nisi. Nunc rutrum arcu justo, et condimentum felis efficitur ac. Praesent id erat ac felis dignissim commodo. Proin vehicula libero eu suscipit sodales. Vestibulum imperdiet nibh ut ligula semper posuere. Duis felis mauris, luctus eget dui eget, suscipit tempus magna. Duis quis purus sit amet diam condimentum iaculis. Proin varius sapien non erat elementum tincidunt. Phasellus aliquam sodales tellus, sit amet aliquet nisi elementum non. Nam in vulputate sem, in facilisis erat. Fusce auctor risus vel euismod rhoncus.</p>
+		
+		    <p>Nam dolor lorem, commodo id volutpat sit amet, dignissim porta nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam pellentesque nisi eget urna lobortis, pharetra tempor eros viverra. Maecenas aliquam molestie magna ut maximus. Nam efficitur placerat blandit. Morbi libero arcu, sollicitudin ac interdum sed, congue vel elit. Praesent lectus ex, fringilla eu massa et, varius tincidunt nunc. Morbi egestas at enim eget vestibulum. Integer finibus enim non urna feugiat pellentesque. Etiam cursus vel neque id porttitor. Maecenas lectus massa, placerat nec elementum eu, ornare in tortor. Phasellus sit amet est elementum, condimentum lectus auctor, pellentesque ipsum.
+			</p>
+			</div>
+		</section>
+	</div>
+	
+	<aside>
+		<section>
+		 	<div class="asidesearch">
+				<input id="asideinput" type="text" placeholder="Search....." onclick="window.alart('This section is under devlopment')">
+				<button class="asidebtn"><i class="fas fa-search"></i></button>
+	 		</div>
+	
+	 		<div class="Adesc">
+				<h5>About Author</h5>
+				<img class="authorimg" src="https://secure.gravatar.com/avatar/ebc4018990624b2378fb1c3f191a4560?s=75&d=mm&r=g" alt="author img">
+				<a class="authorname" href="http//www.fb.com/rbimran0"> Jane Smith</a>
+				<p class="authordesc" >Aenean vehicula orci ac urna molestie, nec pulvinar est lacinia. Vestibulum venenatis porim. ex. Pellentesque mi ipsum, vehicula in scelerisque quis, elementum eget dui. Nulla varius laoreet ipsum eu dignissim.</p>
+		 		<div class="authorsocial">
+				<i class="fas fa-search"></i>
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+		 	</div>
+		</section>
+	
+	</aside>
+</div>
+
+<footer>
+	<div class="footwrapper">
+		<div class="fotcontainer">
+			<div class="footflex">
+				<div class="firstcollum">
+					<img src="image/blaskan-white-logo.png" alt="blaskan-whitelogo">
+					<p>
+						Quisque velit urna, blandit eu rhoncus ut, efficitur sit amet justo. Suspendisse lobortis erat nec massa egestas venenatis nec eu ligula. Vestibulum condimentum cursus magna, a finibus sapien sollicitudin a.
+					</p>
+					<p>
+						Proin a rutrum neque. Proin accumsan ipsum quis tellus venenatis dapibus. Phasellus sit amet mi mauris. Nullam vulputate est ut neque. sagittis.elementum lectus imperdiet. Aliquam lacinia felis sed ante volutpat, accumsan ullamcorper
+					</p>
+		
+		
+		
+		
+					
+				</div>
+			  
+				<div class="secondcollum">
+		
+						<h5>Recent Post</h5>
+						<ul class="footul">
+							<li><a href="https://colorlib.com/blaskan/2017/04/20/explore-new-places-every-single-day/">explore new places everyday</a><span> september-12-2020</span></li>
+		
+							<li><a href="https://colorlib.com/blaskan/2017/04/20/travel-where-you-want/"> tarvel where you want</a><span>september-12-2020</span></li>
+		
+							<li><a href="https://colorlib.com/blaskan/2017/04/20/travel-where-you-want/"> expore the world</a><span>september-12-2020</span></li>
+		
+							<li><a href="https://colorlib.com/blaskan/2017/04/20/travel-where-you-want/"> go to the movies</a><span>september-12-2020</span></li>
+		
+							<li><a href="https://colorlib.com/blaskan/2017/04/20/travel-where-you-want/">learn always new things</a><span>september-12-2020</span></li>
+							
+						</ul>
+				
+				</div>
+				<div class="thirdcollum">
+					<h5>Categories</h5>
+					<ul class="thirdclm">
+						<li><a href="https://colorlib.com/blaskan/category/adventures/">Adventures</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/books/">Books</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/cinema/">Cinema</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/Citybreakes/">Citybreakes</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/Landscapes/">Landscapes</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/Lifestyle/">Lifestyle</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/Travel/">Travel</a></li>
+						<li><a href="https://colorlib.com/blaskan/category/Uncategorized/">Uncategorized</a></li>
+					</ul>
+				</div>
+			
+
+				<iframe src="https://calendar.google.com/calendar/embed?height=330&amp;wkst=7&amp;bgcolor=%23898989&amp;ctz=Asia%2FDhaka&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4uYmQjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%2333B679&amp;color=%237986CB&amp;showTz=0&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;showNav=1&amp;showTitle=0&amp;mode=MONTH&amp;showDate=1" style="border-width:0" width="254" height="330" frameborder="0" scrolling="no"></iframe>
+
+			
+			
+			</div>
+		</div>
+	</div>
+
+	
+</footer>
+<script src="function.js" type="text/javascript"></script>
+	
+</body>
+</html>
